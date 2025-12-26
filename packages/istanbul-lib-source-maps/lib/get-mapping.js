@@ -51,7 +51,7 @@ function originalEndPositionFor(sourceMap, generatedEnd) {
             beforeEndMapping = originalPositionTryBoth(
                 sourceMap,
                 line,
-                Number.MAX_SAFE_INTEGER
+                Infinity
             );
         }
         if (beforeEndMapping.source === null) {
